@@ -10,4 +10,8 @@
         git checkout bugFix 
 
     #1.3
-        
+        git checkout -b bugFix 
+        git commit
+        git checkout main
+        git commit 
+        git merge bugFix
